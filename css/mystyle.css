@@ -1,0 +1,14 @@
+.estrella{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.estrella2{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    float: left;
+}
+.calificacion{
+    display: inline-block;
+}

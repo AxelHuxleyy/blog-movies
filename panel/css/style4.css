@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: auto;
+    background-image: url(../image/teatro.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+.container-form{
+    width: 100%;
+    max-width: 600px;
+    max-height: 650px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 50px;
+
+
+}
+.scrolling{
+    max-height: 550px;
+    overflow-x: auto;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background: #282638;
+    display: flex;
+    position: relative;
+}
+
+.logo-title{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.logo-title img{
+    height: 40px;
+}
+
+.logo-title h2{
+   margin-left: 10px;
+    margin-top: 8px;
+    color: white;
+    font-weight: 300;
+}
+
+article .menu{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+}
+
+article .menu li{
+    list-style: none;
+    padding: 30px;
+    padding-bottom: 27px;
+    font-weight: 300;
+}
+
+.line-li{
+    border-bottom: 4px solid #5584FF;
+}
+
+article .menu li:hover{
+    border-bottom: 4px solid #fff;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+/*formulario Login*/
+
+.adentro{
+    max-height: 600px;
+    overflow: auto;
+}
+.form{
+    width: 100%; 
+    
+
+}
+
+.form .welcome-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form .welcome-form h1{
+    font-weight: 300;
+    font-size: 30px;
+    color: #898989;
+}
+
+.form .welcome-form h2{
+    font-size: 34px;
+    margin-left: 10px;
+    margin-top: -4px;
+    font-weight: bold;
+    color: #5584FF;
+}
+
+.line-input{
+    max-width: 350px;
+    display: flex;
+    border-bottom: 1px solid #efefef;
+    margin: auto;
+    margin-top: 40px;
+    padding: 6px;
+    position: relative;
+}
+
+.border-input{
+    border-bottom: 1px solid #5584FF;
+}
+
+.line-input input{
+    border-style: none;
+    outline: 0px;
+    margin-left: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 300;
+}
+
+.line-input label{
+    font-size: 20px;
+    position: relative;
+    top: -4px;
+    color: #0076ff;
+}
+
+.form button{
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    background: #5584FF;
+    border-style: none;
+    outline: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form button:hover{
+    opacity: .9;
+}
+
+.form button label{
+    position: relative;
+    left: 50px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+.mensaje{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    padding: 6px;
+    color: red;
+}
+
+
+.active{
+    border-bottom: 4px solid #5584FF;
+}
+
+
+/*Principal*/
+
+
+.welcome{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            margin-top: 100px;
+            background: rgba(0,0,0,0.6);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .welcome h1{
+            font-size: 50px;
+            color: white;
+            font-weight: 100;
+        }
+        
+        .welcome a{
+            display: block;
+            margin-top: 40px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid white;
+        }
+        
+        .welcome a:hover{
+            color: black;
+            background: white;
+        }
+        #sexo{
+            
+            margin-top: 40px;
+            margin-left: 130px;
+
+        }
+        #hombre{
+            margin-right: 3px;
+        }
+
+        #mujer{
+            margin-left: 30px;
+            margin-right: 3px;
+        }
+        #avisos{
+            margin-left: 130px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+/*******************************estilo del checkbox****************************************/
+        .container {
+          float: left;
+          display: block;
+            margin-right: 30px;
+          position: relative;
+          padding-left: 35px;
+          margin-bottom: 12px;
+          cursor: pointer;
+          font-size: 17px;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+
+.container a{
+    color: red;
+}
+
+        /* Hide the browser's default checkbox */
+        .container input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 23px;
+          width: 23px;
+          background-color: #eee;
+        }
+
+        /* On mouse-over, add a grey background color */
+        .container:hover input ~ .checkmark {
+          background-color: #ccc;
+        }
+
+        /* When the checkbox is checked, add a blue background */
+        .container input:checked ~ .checkmark {
+          background-color: #2196F3;
+        }
+
+        /* Create the checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .container input:checked ~ .checkmark:after {
+          display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .container .checkmark:after {
+          left: 8px;
+        top: 5px;
+        width: 3px;
+            height: 6px;
+          border: solid white;
+          border-width: 0 3px 3px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+
+
+
+/****************************************ventana emergente********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
